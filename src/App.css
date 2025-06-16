@@ -1,0 +1,19 @@
+.App {
+	width: 95%;
+	padding: 0 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.title {
+	font-weight: 700;
+}
+.slider {
+	width: 100%;
+}
+
+.labels {
+	display: flex;
+	justify-content: space-between;
+}
