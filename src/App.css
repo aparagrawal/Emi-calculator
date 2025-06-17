@@ -17,3 +17,19 @@
 	display: flex;
 	justify-content: space-between;
 }
+.tenure-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.tenure {
+	width: 15%;
+	height: 50px;
+	border: none;
+	border-radius: 100px;
+	background-color: rgb(226, 226, 226);
+}
+.selected {
+	background-color: aqua;
+	color: white;
+}
