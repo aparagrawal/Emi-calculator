@@ -105,6 +105,9 @@ function EmiCalculator() {
 				</div>
 			</div>
 			<span className="title">Loan per month</span>
+			<span className="title" style={{ textDecoration: "underline" }}>
+				Total Loan amount -{(Number(emi) * tenure).toFixed(0)}
+			</span>
 			<div>
 				<input
 					type="range"
